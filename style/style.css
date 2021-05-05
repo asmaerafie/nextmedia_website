@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    line-height: 0.9em;
+    font-family: Montserrat;
+ }
+
+/*debut home countainer  */
+.logo{
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 35px;
+    margin: 30px 0 0 30px;
+}
+.logo img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    position:absolute;
+    display: inline-block;
+    margin: -30px 30px 0 0;
+    right: 0;
+}
+.logo img{
+ 
+}
+.home-countainer{
+    background-color: rgb(117, 76, 155); 
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.title{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home-countainer .h1{
+    color: white;
+    font-size:135px;
+    font-weight: bold;
+}
+.title .sub-title{      
+    font-size: 130%;
+    letter-spacing: 0.1em; 
+    position: relative;
+    left: 80px; 
+    color: white;
+}
+
+.scroll{
+    position: absolute;
+    left: 50%;
+    bottom: 0px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 10px;
+
+}
+.scroll a{
+    text-decoration: none;
+    color: white;
+}
+/*fin home countainer  */
+
+/*debut services countainer  */
+
+#countainer-quiSommesNous{
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 640px;
+}
+#countainer-quiSommesNous .h2{
+    display: inline-block;
+    margin-left: 20%;
+    font-size: 85px;
+    font-family: Montserrat;
+    font-weight: bold;
+    position: relative;
+}
+#countainer-quiSommesNous .h2::before{
+    content: "";
+    width: 120px;
+    height: 16px;
+    display: inline-block;
+    background-color: rgb(153, 74, 155);
+    position:absolute;
+    top: 35px;
+    left: -13%; 
+}
+#countainer-quiSommesNous .description{    
+    max-width: 780px;
+    width : 100%;
+    height:55%;
+    position:relative;
+    margin:0 auto;
+    bottom: 0;
+}
+.description p{
+    display:block;
+    font-size: 13px;
+    line-height: 1.5em;
+    text-align: justify;
+    width: 50%;
+    padding: 20px;
+    float: left;
+    right: 0;
+}
+
+.services{ 
+    text-align:center; 
+    position:absolute   ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    display: block;
+    /* margin-bottom: 20px; */
+}
+.services ul li{ 
+    width:25%;    
+    float: left;
+    list-style: none;    
+    padding: 0 25px;
+    text-align: center;
+}
+
+.services ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    line-height: 1.5em;
+}
+/*fin services countainer  */
+
+/*debut realisation countainer  */
+.countainer-realisation{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(62, 11, 54);
+}
+.countainer-realisation .h1{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top:35px;
+    font-size: 88px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+.countainer-realisation .h1::before{
+    content: "";
+    width: 120px;
+    height: 16px;
+    display: inline-block;
+    background-color: rgb(153, 74, 155);
+    position:absolute;
+    top: 35px;
+    left: -17%;    
+}
+.countainer-realisation a{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+    text-decoration: none;
+    color: rgb(252, 244, 244);
+    margin-bottom: 34px;
+    margin-right: 10px;
+    display: inline;
+    opacity: 1;
+}
+.countainer-realisation img{
+    position: relative;
+    right: 63%;
+    width: 675px;
+    height:490px;
+    transform: skew(-10deg);
+    opacity: 0.85;
+}
+
+.countainer-realisation .img2{
+    position: relative;
+    right: 50%;
+}
+.countainer-realisation li{
+    
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 450px;
+    overflow: hidden;
+    transform: skew(15deg);
+    
+}
+.countainer-realisation .countainer{
+    position: relative;
+    max-width: 950px;
+    width: 100%;
+    margin: 50px auto 0;
+}
+.realisation{
+    position: relative;
+    display: inline-block;
+}
+/*fin realisation countainer  */
+
+/*debut valeur countainer  */
+.countainer-valeur .h1{
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 80px;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    letter-spacing: 0.1em;
+}
+.countainer-valeur .h1::before{
+    content: "";
+    width: 120px;
+    height: 16px;
+    display: inline-block;
+    background-color: rgb(153, 74, 155);
+    position:relative;
+    bottom: 20px;
+    right: -7%;    
+}
+.countainer-valeur{
+    width: 100%;
+    background:url(../img/bg-valeur.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.countainer-valeur .countainer{
+    margin:39px auto 0;
+    width: 60%;
+    position: relative;
+   }
+
+.countainer-valeur .countainer-img{
+    display: inline-block;
+    height: 70px;
+}
+.countainer-valeur .valeurs span{
+    position:relative;
+    margin-top: 4%;
+    height: 40px;
+    text-align: center;
+    display: block;
+    line-height: 1.3em;
+    font: bold;
+    color: white;
+}
+.countainer-valeur .countainer p{
+    color:rgb(202, 170, 203);
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    line-height: 1.3em; 
+    margin-top: 15px;
+}
+.countainer-valeur .valeurs ul{
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    
+}
+.countainer-valeur .valeurs li{
+    position:relative;
+    float: left;
+    width: 33.3333%; 
+    padding: 15px;
+    margin-top: 50px;
+    list-style: none;
+    justify-content: center;
+}
+
+/*fin valeur countainer  */
+
+/* debut nous font confiances countainer*/
+.countainer-confiances{
+    width: 100%;
+}
+
+.countainer-gallery{
+    position:relative;
+    height: 480px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+.medias{
+    position: relative;
+    width: 23%;
+    height: 201px;
+    background-color: rgb(55, 189, 178);
+    display: inline-block;
+    margin:0 2px;
+}
+.countainer-media{
+    width: 50%;
+    display: inline-block;
+    top: 20%;
+    left: 25%;
+    text-align: center;
+}
+.countainer-media li{
+    display: inline-block;
+    width: 38%; 
+    margin: 10px 2px;
+}
+.countainer-confiances .countainer-gallery img{
+    height: 100%;
+    width: 100%;    
+    padding:1px 3px;
+}
+.countainer-confiances .countainer-gallery div{
+    float: left;
+    position: relative;
+}
+/* img divs */
+.countainer-confiances .image1{    
+    position: relative;
+    width: 43%;
+    height: 440px;
+    display: inline-block;
+    margin-top: -1px;
+}
+.countainer-confiances .image2{
+    position: relative;
+    width: 33%;
+    display: inline-block;
+    height: 229px;
+    margin-top: -27px;
+}
+.countainer-confiances .image3{
+    position: relative;
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+}
+.countainer-confiances .image4{
+    position: relative;
+    width: 25%;
+    display: inline-block;
+    height: 230px;
+}
+
+.countainer-confiances .h1{
+    display: inline-block;
+    margin-left: 20%;
+    /* margin-top: 35px; */
+    font-size: 85px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    position: relative;
+    text-align:left;
+}
+.countainer-confiances .h1::before{
+    content: "";
+    width: 120px;
+    height: 16px;
+    display: inline-block;
+    background-color: rgb(153, 74, 155);
+    position:relative;
+    top: -15px;
+    left:10%; 
+}
+.countainer-magazine{
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+}
+.countainer-magazine ul{
+    text-align: center;
+    list-style: none;
+    padding: 30px 0;
+}
+.countainer-magazine ul li{
+    width: 24.3333%;
+    display: inline-block;
+    margin: 20px 0;
+}
+.countainer-magazine img{
+    margin:0 20px;
+    width: 120px;
+    height: 50px;
+}
+/* fin nous font confiances countainer*/
+
+/* debut contact countainer */
+.countainer-contact{
+    background: url(../img/bg_contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.countainer-contact .countainer{
+    position: relative;
+    top: 0;
+    width: 700px;
+    margin: auto;
+}
+
+.countainer-contact .countainer .span-agence{
+    position: relative;
+    font-family: "LearningCurve";    
+    font-size: 65px;
+    display: inline-block;
+    left: 15%;
+    font-family: 'Parisienne', cursive;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    color: white;
+}
+.countainer-contact .countainer h2{
+    position: relative;
+    width: 100%;
+    font-size: 40px;  
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    letter-spacing: 0.2em;
+}
+.countainer-form{
+ 
+    width: 85%;
+    margin: auto;
+    margin-top: 60px;
+}
+.countainer-form input{
+    position: relative;
+    display:block;
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+}
+input,textarea::placeholder{
+    padding-left: 10px;
+ }
+textarea::placeholder{
+     padding-top: 10px;
+ }
+.tableau{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.tableau p{
+    margin-top: 7px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 14px;
+}
+.tableau span{
+    /* color: rgba(255, 255, 255, 0.19); */
+    color: rgb( 113, 77, 118);
+    font-weight: bold;
+}
+.footer-content img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.footer-content{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.footer-content li{
+    position: relative;
+    display:inline-block;
+    width: 33px;
+    height: 30px;
+    margin: 20px 10px 10px 0;
+}
+input[type=button]{
+    background-color: rgb(17, 167, 199);
+    color: white;
+    border: none;
+}
+
+/* fin contact countainer */
+
+.clear{
+    clear: both;
+}
